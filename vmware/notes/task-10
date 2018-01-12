@@ -1,0 +1,16 @@
+General:
+  [Untick] Use only certified plug-ins
+
+JavaScript:
+  [Tick] Enable Acrobat JavaScript
+  [Untick] Enable menu items JavsScript execution privileges
+  [Untick] Enable global object security policy
+  [Tick] Show console on errors and messages
+
+Security (Enhanced)
+  [Untick] Enable Protected Mode at startup
+  [Untick] Enable Enhanced Security
+  [Tick] Automatically trust documents with valid certification
+
+Usage Information
+  [Untick] Yes, I would like to share ...

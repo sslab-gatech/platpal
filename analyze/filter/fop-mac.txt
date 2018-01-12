@@ -1,0 +1,68 @@
+# app logic
+/Applications/Adobe .*.app/Contents/.*
+
+# app support file
+/Users/bft/Library/Application Support/Adobe/.*
+/Users/bft/Library/Caches/Acrobat/.*
+/Users/bft/Library/Caches/Adobe/.*
+
+# system libs
+/System/Library/CoreServices/SystemAppearance.bundle/.*
+/System/Library/CoreServices/Encodings/.*
+/System/Library/ColorSync/Profiles/.*
+/System/Library/Frameworks/AppKit.framework/.*
+/System/Library/Frameworks/ApplicationServices.framework/.*
+/System/Library/Frameworks/Carbon.framework/.*
+/System/Library/Frameworks/CoreText.framework/.*
+/System/Library/Frameworks/CoreGraphics.framework/.*
+/System/Library/Frameworks/DirectoryService.framework/.*
+/System/Library/Frameworks/OpenCL.framework/.*
+/System/Library/PrivateFrameworks/CoreUI.framework/.*
+/System/Library/PrivateFrameworks/CrashReporterSupport.framework/.*
+/System/Library/PrivateFrameworks/IMDMessageServices.framework/.*
+/System/Library/TextEncodings/.*
+
+# other settings
+/Library/ColorSync/Profiles/.*
+/Library/Fonts/.*
+/System/Library/Fonts/.*
+/System/Library/Sounds/.*
+
+# maldoc sample
+/Users/bft/Maldoc.pdf
+
+# user dir
+/Users/bft
+/Users/bft/Applications
+/Users/bft/.CFUserTextEncoding
+/Users/bft/Library/Preferences/com.apple.systemsound.plist
+/Users/bft/Library/ColorSync/Profiles/.*
+
+# sandbox 
+/System/Library/Sandbox/Profiles/com.apple.corefoundation.sb
+/System/Library/Sandbox/Profiles/fontworkerinternal.sb
+/System/Library/Sandbox/Profiles/mdworker.sb
+/System/Library/Sandbox/Profiles/system.sb
+/usr/share/sandbox/fontworkerinternal.sb
+/usr/share/sandbox/mdworker.sb
+
+# external deps
+/dev/autofs_nowait
+/dev/tty
+/etc/.mdns_debug
+/etc/localtime
+/usr/share/icu/icudt55l.dat
+
+# misc
+/dev/dtracehelper
+/dev/urandom
+/etc/asl/.*
+/etc/asl.conf
+/usr/local/etc/asl
+/usr/share/zoneinfo/.*
+/var/folders/pc/.*?/.*?/.*
+/var/db/diagnostics
+/var/db/systemstats/.*
+/var/log/ColorSyncDeprecatedCalls.log
+/private/var/root/Library/Preferences/com.apple.cache_delete.plist.*
+/Volumes

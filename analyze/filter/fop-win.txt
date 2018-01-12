@@ -1,0 +1,58 @@
+# app logic
+c:\\program files \(x86\)\\adobe\\.*
+
+# app support file
+c:\\program files \(x86\)\\common files\\adobe\\.*
+c:\\programdata\\adobe\\.*
+c:\\users\\bft\\appdata\\local\\adobe\\.*
+c:\\users\\bft\\appdata\\locallow\\adobe\\.*
+c:\\users\\bft\\appdata\\roaming\\adobe\\.*
+
+# system libs
+c:\\windows\\syswow64\\.*
+c:\\windows\\winsxs\\.*
+
+# other settings
+c:
+c:\\program files \(x86\)
+c:\\program files \(x86\)\\common files
+c:\\program files \(x86\)\\desktop.ini
+c:\\programdata
+c:\\programdata\\microsoft\\network\\.*
+c:\\windows
+c:\\windows\\atmreg.atm
+c:\\windows\\registration\\r000000000006.clb
+c:\\windows\\api-ms-win-appmodel-runtime-l1-1-1.dll
+c:\\windows\\ext-ms-win-kernel32-package-current-l1-1-0.dll
+c:\\windows\\system\\ext-ms-win-kernel32-package-current-l1-1-0.dll
+c:\\windows\\system\\api-ms-win-appmodel-runtime-l1-1-1.dll
+c:\\windows\\fonts\\.*
+c:\\windows\\system32\\atmfd.dll
+c:\\windows\\system32\\spool\\drivers\\color\\.*
+c:\\users\\bft\\appdata
+c:\\users\\bft\\appdata\\local
+c:\\users\\bft\\appdata\\local\\microsoft\\windows\\.*
+c:\\users\\bft\\appdata\\locallow
+c:\\users\\bft\\appdata\\roaming
+c:\\users\\bft\\appdata\\roaming\\microsoft\\network\\.*
+c:\\users\\bft\\appdata\\roaming\\microsoft\\windows\\.*
+
+# temp files
+c:\\users\\bft\\appdata\\local\\temp
+c:\\users\\bft\\appdata\\local\\temp\\a9r.*.tmp
+
+# maldoc sample
+c:\\users\\bft\\maldoc.pdf
+
+# user dir
+c:\\users
+c:\\users\\bft
+c:\\users\\bft\\.*?\\desktop.ini
+c:\\users\\desktop.ini
+
+# updates
+c:\\users\\bft\\appdata\\roaming\\arcot
+c:\\users\\bft\\appdata\\roaming\\arcot\\ids
+c:\\users\\bft\\appdata\\roaming\\microsoft\\systemcertificates\\.*
+c:\\users\\bft\\documents
+c:\\users\\bft\\documents\\arcotids

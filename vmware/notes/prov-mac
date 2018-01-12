@@ -1,0 +1,12 @@
+Install VMware Tool
+Allow Auto-Login
+Disable SIP 
+  `csrutil disable` in recovery mode
+Allow Passwordless sudo
+  /etc/sudoers
+  sudo dscl . append /Groups/wheel GroupMembership bft
+Copy and unsign sudo to home folder
+  sudo cp -a /usr/bin/sudo ./
+  sudo codesign -fs- ./sudo
+Enable dtruss user access
+  sudo chmod u+s /usr/sbin/dtrace
